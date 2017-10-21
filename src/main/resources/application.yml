@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    dbcp2:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/charges
+      username: root
+      password: 1994
+
+config:
+  location: /Users/OnionMac/D/version.json #默认的地址
+
+ipconfig:
+  ip: "116.196.111.10"
+  path: "/data/"
+  user: "root"
+  password: "zhangqi759308541Aa"
+  port: "22"
+
+
+
